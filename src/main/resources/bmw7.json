@@ -1,0 +1,7 @@
+{
+  "brand" : "BMW",
+  "model" : "7",
+  "engineCapacity" : 4.0,
+  "addons" : [ "AUDIO_SYSTEM", "APPLE_CAR_PLAY", "SEAT_MASSAGE", "AIR_CONDITION" ],
+  "hasTurbo" : true
+}

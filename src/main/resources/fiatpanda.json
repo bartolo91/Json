@@ -1,0 +1,7 @@
+{
+  "brand" : "Fiat",
+  "model" : "Panda",
+  "engineCapacity" : 2.0,
+  "addons" : [ "AIR_CONDITION" ],
+  "hasTurbo" : true
+}
