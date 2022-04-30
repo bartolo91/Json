@@ -11,7 +11,7 @@ import java.io.IOException;
 public class AutoDeserializer extends StdDeserializer<Auto> {
 
 
-    public AutoDeserializer(Class<?> vc) {
+    public AutoDeserializer(Class<Auto> vc) {
         super(vc);
     }
 

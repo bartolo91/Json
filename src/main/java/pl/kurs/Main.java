@@ -66,6 +66,8 @@ public class Main {
 
         //Stwórz obiekt samochod i zapisz go do formatu json
 
+
+
         DateKeeper dk = new DateKeeper(new Date(86_400_000L * 19_000));
         objectMapper.writeValue(new File(PATH + "datekeeper.json"), dk);
 
@@ -106,7 +108,6 @@ public class Main {
         Auto auto1 = objectMapper.readValue(new File(PATH+"auto.json"), Auto.class);
         System.out.println(auto1);
 
-
         /*
             Stworz klase ksiazka ktora ma autora, tytul, kategorie, cene.
             STworz kilka obiektów i zapisz je jako json nody a nastepnie zapisz je jako plik jsonowy.
@@ -115,5 +116,6 @@ public class Main {
 
         // Stwórz klase Person (name, surname, age) i uzyj serializerow i deserializerow do odczytu i zapisu.
         // name = imie, surname = nazwisko age= wiek
+
     }
 }
